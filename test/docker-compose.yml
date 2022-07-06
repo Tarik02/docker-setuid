@@ -1,0 +1,5 @@
+services:
+  main:
+    build: .
+    network_mode: host
+    user: 1000:1000
